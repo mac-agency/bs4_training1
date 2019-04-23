@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url("page_top.css");
+.tel_width  {
+  width: 50px;
+}
+
+.logo_height {
+  height: 30px;
+}
+
+.contact_wrap {
+}
+
+.contact_wrap1 {
+  display: block;
+}
+
+.top_nav {
+  width: 170px;
+}
+
+.contact_wrap3 {
+  float: left;
+  clear: both;
+}
+
+.text_effect {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.midashi_text {
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.4em;
+  color: #5E5E5E;
+}
+
+@media (max-width:767px){
+
+.tel_ichi {
+  clear: both;
+  position: relative;
+  margin-right: auto;
+}
+
+.contact_wrap1 {
+  display: none;
+}
+
+
+}
+
+@media (min-width:768px){
+
+.contact_wrap {
+  display: none;
+}
+
+.contact_wrap {
+}
+
+.top_nav {
+  width: 170px;
+  display: none;
+}
+}
+
+@media (max-width:320px){
+
+.logo_height {
+  height: 21px;
+}
+
+.tel_width {
+  width: 45px;
+}
+}
+
+@media (max-width:375px) and (min-width:321px){
+}
+
+@media (max-width:414px) and (min-width:376px){
+}
