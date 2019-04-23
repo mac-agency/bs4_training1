@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body {
+  padding-top:54px;
+} 
+
+.bg-top {
+  background-image: url(../images/slide1.jpg);
+  background-size: cover;
+  background-position: center 60%;
+}
+
